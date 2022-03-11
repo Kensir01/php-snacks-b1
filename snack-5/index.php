@@ -9,7 +9,7 @@ $paragrafi = ".";
 $testoDivisoParagrafi = explode($paragrafi, $testo);
 // ciclo l'array
 for ($i = 0; $i < count($testoDivisoParagrafi); $i++) {
-    echo ("<p>$testoDivisoParagrafi[$i]" . $paragrafi . "</p>");
+    echo "<p>$testoDivisoParagrafi[$i]</p>";
 };
 
 
